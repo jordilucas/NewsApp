@@ -1,11 +1,12 @@
-package br.com.jordilucas.newsapp
+package br.com.jordilucas.newsapp.ui.books
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import br.com.jordilucas.newsapp.R
 
-class MainActivity : AppCompatActivity() {
+class BooksActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_books)
     }
 }
